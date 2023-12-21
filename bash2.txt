@@ -48,7 +48,7 @@ kill 666
 ping artsiomrusau.com
 
 # Отправьте 5 пакетов на сайт artsiomrusau.com
-ping -n 5 artsiomrusau.com
+ping -c 5 artsiomrusau.com
 
 # Используя GET и команду curl, получите информацию о зарегистрированных питомцах на https://petstore.swagger.io/
 curl -X 'GET' 'https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=pending&status=sold' -H 'accept: application/json' > pets.json
